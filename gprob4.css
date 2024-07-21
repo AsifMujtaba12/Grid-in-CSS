@@ -1,0 +1,41 @@
+*  {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(6,1fr) ;
+    grid-auto-rows: 80px;
+    gap: 20px;
+
+}
+.box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+
+
+}
+
+.box1, .box3, .box5, .box7{
+    background-color:rgb(57, 56, 56) ;
+}
+.box2, .box4, .box6, .box8 {
+    background-color:rgb(182, 179, 179) ;
+}
+.box3 {
+    order: -2;
+}
+.box4{
+    order: -2;
+}
+.box5 ,.box6, .box7, .box8 {
+    order: -2;
+}
+
+
+
